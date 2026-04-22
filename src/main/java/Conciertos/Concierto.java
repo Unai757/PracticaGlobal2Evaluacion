@@ -1,7 +1,8 @@
-package org.example;
+package Conciertos;
 
 import java.util.Date;
 
+/**Clase artista con las variables de concierto.*/
 public class Concierto {
     private int id;
     private int artista;

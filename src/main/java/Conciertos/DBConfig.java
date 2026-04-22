@@ -1,13 +1,14 @@
-package org.example;
+package Conciertos;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**Clase que nos sirve para conectarnos con la base de datos, utilizando el archivo db.properties.*/
 public class DBConfig {
     private static final Properties properties = new Properties();
     static {
-        try (InputStream input = org.example.DBConfig.class
+        try (InputStream input = DBConfig.class
                 .getClassLoader()
                 .getResourceAsStream("db.properties")) {
             if (input == null) {

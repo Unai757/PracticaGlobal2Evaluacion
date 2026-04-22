@@ -1,5 +1,6 @@
-package org.example;
+package Conciertos;
 
+/**Clase entrada con las variables de entrada.*/
 public class Entrada {
     private int id;
     private int concierto;

@@ -1,4 +1,5 @@
-package org.example;
+package Conciertos;
+/**Clase artista con las variables de artista.*/
 
 public class Artista {
     private int id;
