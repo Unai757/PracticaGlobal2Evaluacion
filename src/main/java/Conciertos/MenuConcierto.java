@@ -30,7 +30,7 @@ public class MenuConcierto {
                         int idArtista = sc.nextInt();
                         sc.nextLine();
                         pstm.setInt(1, idArtista);
-                        System.out.println("Dime la fecha(YYYY-MM-DDDD) del concierto que quieras insertar");
+                        System.out.println("Dime la fecha(YYYY-MM-DD) del concierto que quieras insertar");
                         Date fecha = Date.valueOf(sc.nextLine());
                         pstm.setDate(2, fecha);
                         System.out.println("Dime el lugar del concierto que quieras insertar");
